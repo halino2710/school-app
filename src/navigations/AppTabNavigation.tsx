@@ -1,18 +1,14 @@
-import { StyleSheet, View, Text, TouchableOpacity, Image } from "react-native";
+import { View, TouchableOpacity, Image } from "react-native";
 import React from "react";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
-import WelcomeScreen from "../screens/WelcomeScreen";
 import Dashboard from "../screens/Dashboard";
-import { NavigationContainer, useNavigation } from "@react-navigation/native";
+import { useNavigation } from "@react-navigation/native";
 import { MaterialIcons } from "@expo/vector-icons";
-import ProductList from "../screens/products/ProductList";
 import Products from "../screens/products/Products";
 import Home from "../screens/Home";
 import Cart from "../screens/products/Cart";
 
 const Tab = createBottomTabNavigator();
-
-const itemAmmount = 2;
 
 const AppTabNavigation = () => {
   const navigation = useNavigation();
@@ -24,7 +20,13 @@ const AppTabNavigation = () => {
             <Image
               source={require("../../assets/images/schoolalllogo.png")}
               resizeMode="contain"
-              style={{ width: 50, height: 50 }}
+              style={{
+                flex: 1,
+                justifyContent: "flex-start",
+                alignItems: "flex-start",
+                width: 50,
+                height: 50,
+              }}
             />
           ),
           headerStyle: { backgroundColor: "#FFDADA" },

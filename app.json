@@ -1,8 +1,10 @@
 {
   "expo": {
-    "name": "school-app",
+    "name": "School Management App",
     "slug": "school-app",
     "version": "1.0.0",
+    "privacy": "public",
+    "description": "An application used in running the day-to-day affairs of schools",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -15,16 +17,30 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.halino2710.schoolapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.halino2710.schoolapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fd688d6b-f83b-4d80-b932-ff3133dd442c"
+      }
+    },
+    "owner": "halino2710",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/fd688d6b-f83b-4d80-b932-ff3133dd442c"
     }
   }
 }

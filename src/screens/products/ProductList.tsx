@@ -146,7 +146,7 @@ const ProductList: React.FC = ({ navigation }: any) => {
               marginBottom: 10,
             }}
           >
-            Shop Now from Or Online Store!
+            Shop Now from Our Online Store!
           </Text>
           <Text style={{ fontSize: 15, color: "#201A1A" }}>
             Every Item in our inventory is available for sale here. Buy now from

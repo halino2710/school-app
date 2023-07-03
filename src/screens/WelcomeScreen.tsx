@@ -8,6 +8,7 @@ import {
   StatusBar,
 } from "react-native";
 import { Divider, Text } from "react-native-paper";
+
 import EventsHome from "./events/EventsHome";
 import AboutUs from "./About-Us";
 import BlogsCarousel from "./blogs/BlogsCarousel";
@@ -15,6 +16,7 @@ import SliderCard from "../components/SliderCard";
 import ProductCarouselHome from "./products/ProductCarouselHome";
 import Testimonial from "./Testimonial";
 import ContactUs from "./ContactUs";
+import Footer from "../components/Footer";
 
 const WelcomeScreen: React.FC = ({ navigation }: any) => {
   const [isVisible, setIsVisible] = useState(false);
@@ -179,6 +181,7 @@ const WelcomeScreen: React.FC = ({ navigation }: any) => {
           }}
         />
         <ContactUs />
+        <Footer />
       </ScrollView>
 
       <View style={styles.container}>
@@ -197,13 +200,13 @@ export default WelcomeScreen;
 const styles = StyleSheet.create({
   container: {
     position: "absolute",
-    bottom: 16,
-    right: 16,
+    bottom: 5,
+    right: 10,
   },
   button: {
     backgroundColor: "#007AFF",
     paddingVertical: 8,
-    paddingHorizontal: 16,
+    paddingHorizontal: 12,
     borderRadius: 8,
   },
   buttonText: {

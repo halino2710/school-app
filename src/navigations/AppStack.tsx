@@ -6,6 +6,8 @@ import AppTabNavigation from "./AppTabNavigation";
 import ProductDetails from "../screens/products/productDetails";
 import Notification from "../screens/Notification";
 import ProductList from "../screens/products/ProductList";
+import BlogsPage from "../screens/blogs/BlogsPage";
+import BlogsCarousel from "../screens/blogs/BlogsCarousel";
 
 const Stack = createStackNavigator();
 
@@ -21,6 +23,8 @@ const AppStack = () => {
       <Stack.Screen name="Notification" component={Notification} />
       <Stack.Screen name="UserProfile" component={UserProfile} />
       <Stack.Screen name="Products" component={ProductList} />
+      <Stack.Screen name="BlogsPage" component={BlogsPage} />
+      <Stack.Screen name="BlogsCarousel" component={BlogsCarousel} />
     </Stack.Navigator>
   );
 };

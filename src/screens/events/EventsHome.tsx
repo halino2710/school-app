@@ -49,9 +49,7 @@ const Event = () => {
         ></View>
 
         <View>
-          <Text style={{ fontSize: 25, marginBottom: 8 }}>
-            Upcomming Events
-          </Text>
+          <Text style={{ fontSize: 25, marginBottom: 8 }}>Upcoming Events</Text>
           <Text style={{ fontSize: 16 }}>
             Check out our latest Upcoming event today!
           </Text>

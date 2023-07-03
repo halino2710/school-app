@@ -10,74 +10,19 @@ import {
 import { Card, Text } from "react-native-paper";
 import { MaterialIcons, Ionicons } from "@expo/vector-icons";
 
-// const Content = () => {
-//   return (
-//     <View
-//       style={{
-//         marginVertical: 10,
-//         backgroundColor: "#FFF8F7",
-//         width: "100%",
-//         alignItems: "flex-start",
-//       }}
-//     >
-//       <View style={{ flexDirection: "row", padding: 5, marginHorizontal: 5 }}>
-//         <View style={{ flexDirection: "row", marginRight: 120 }}>
-//           <Text style={{ fontSize: 16, marginRight: 5 }}>tag item</Text>
-//           <Text style={{ fontSize: 16, marginRight: 5 }}>tag item</Text>
-//           <Text style={{ fontSize: 16 }}>tag item</Text>
-//         </View>
-//         <View style={{}}>
-//           <MaterialIcons name="share" size={25} color={"#000"} />
-//         </View>
-//       </View>
-
-//       <View style={{ marginHorizontal: 5 }}>
-//         <Text style={{ fontSize: 20, marginBottom: 15 }}>BlogTtile</Text>
-//         <Text style={{ marginRight: 30 }}>
-//           Learn more about this bizarre object that has ‘broken the law’ and got
-//           Scientists confused
-//         </Text>
-//       </View>
-
-//       <View
-//         style={{
-//           flexDirection: "row",
-//           alignItems: "center",
-//           marginVertical: 12,
-//         }}
-//       >
-//         <Image
-//           source={require("../../../assets/images/blogs-avatar.png")}
-//           resizeMode="cover"
-//           style={{ width: 50, height: 50, borderRadius: 50 }}
-//         />
-
-//         <View style={{ marginLeft: 10 }}>
-//           <Text style={{ fontSize: 18, color: "#AD414D" }}>Display name</Text>
-//           <Text>Subhead</Text>
-//         </View>
-//         <Text style={{ marginLeft: 70, fontSize: 16 }}>12th April, 2023</Text>
-//       </View>
-//     </View>
-//   );
-// };
-
-const BlogsCarousel = () => {
+const BlogsCarousel = ({ navigation }: any) => {
   const data = [
     {
       id: 1,
       source: require("../../../assets/images/blog-image1.png"),
-      // content: <Content />,
     },
     {
       id: 2,
       source: require("../../../assets/images/blog-image2.png"),
-      // content: <Content />,
     },
     {
       id: 3,
       source: require("../../../assets/images/blog-image3.png"),
-      // content: <Content />,
     },
   ];
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -117,7 +62,7 @@ const BlogsCarousel = () => {
   };
 
   return (
-    <View style={{}}>
+    <View>
       <ScrollView
         ref={scrollViewRef}
         horizontal
@@ -145,7 +90,6 @@ const BlogsCarousel = () => {
                   <View
                     style={{
                       flexDirection: "row",
-                      // padding: 5,
                       marginHorizontal: 5,
                     }}
                   >
@@ -346,159 +290,3 @@ const styles = StyleSheet.create({
 });
 
 export default BlogsCarousel;
-
-// import React, { useRef, useState } from "react";
-// import {
-//   View,
-//   Text,
-//   Image,
-//   ScrollView,
-//   Dimensions,
-//   StyleSheet,
-//   TouchableOpacity,
-// } from "react-native";
-// import { MaterialIcons } from "@expo/vector-icons";
-
-// const BlogsCarousel = () => {
-//   const [activeIndex, setActiveIndex] = useState(0);
-
-//   const images = [
-//     { id: 1, source: require("../../../assets/images/graduation-image.png") },
-//     { id: 2, source: require("../../../assets/images/bag.jpg") },
-//     { id: 3, source: require("../../../assets/images/image.png") },
-//     { id: 4, source: require("../../../assets/images/hero-banner.png") },
-//   ];
-
-//   const handleScroll = (event: {
-//     nativeEvent: {
-//       layoutMeasurement: { width: any };
-//       contentOffset: { x: number };
-//     };
-//   }) => {
-//     const slideSize = event.nativeEvent.layoutMeasurement.width;
-//     const currentIndex = event.nativeEvent.contentOffset.x / slideSize;
-//     setActiveIndex(Math.round(currentIndex));
-//   };
-
-//   const handlePrevious = () => {
-//     if (activeIndex > 0 && scrollViewRef.current) {
-//       scrollViewRef.current.scrollTo({
-//         x: (activeIndex - 1) * Dimensions.get("window").width,
-//         animated: true,
-//       });
-//       setActiveIndex(activeIndex - 1);
-//     }
-//   };
-
-//   const handleNext = () => {
-//     if (activeIndex < images.length - 1 && scrollViewRef.current) {
-//       scrollViewRef.current.scrollTo({
-//         x: (activeIndex + 1) * Dimensions.get("window").width,
-//         animated: true,
-//       });
-//       setActiveIndex(activeIndex + 1);
-//     }
-//   };
-
-//   const scrollViewRef = useRef<ScrollView>(null);
-
-//   return (
-//     <>
-//       <View style={styles.carouselContainer}>
-//         <ScrollView
-//           ref={scrollViewRef}
-//           horizontal
-//           pagingEnabled
-//           showsHorizontalScrollIndicator={false}
-//           onScroll={handleScroll}
-//           scrollEventThrottle={200}
-//         >
-//           {images.map((image) => (
-//             <View key={image.id} style={styles.imageContainer}>
-//               <Image source={image.source} style={styles.image} />
-//             </View>
-//           ))}
-//         </ScrollView>
-//         <TouchableOpacity
-//           style={styles.previousButton}
-//           onPress={handlePrevious}
-//         >
-//           <Text style={styles.buttonText}>
-//             <MaterialIcons name="chevron-left" size={50} color={"#fff"} />
-//           </Text>
-//         </TouchableOpacity>
-//         <TouchableOpacity style={styles.nextButton} onPress={handleNext}>
-//           <Text style={styles.buttonText}>
-//             <MaterialIcons name="chevron-right" size={50} color={"#fff"} />
-//           </Text>
-//         </TouchableOpacity>
-//         <View style={styles.paginationContainer}>
-//           {images.map((_, index) => (
-//             <View
-//               key={index}
-//               style={[
-//                 styles.paginationDot,
-//                 activeIndex === index && styles.activeDot,
-//               ]}
-//             />
-//           ))}
-//         </View>
-//       </View>
-//     </>
-//   );
-// };
-
-// const styles = StyleSheet.create({
-//   carouselContainer: {
-//     // flex: 1,
-//     height: 400,
-//   },
-//   imageContainer: {
-//     width: Dimensions.get("window").width,
-//     height: "100%",
-//   },
-//   image: {
-//     flex: 1,
-//     resizeMode: "cover",
-//     width: "100%",
-//   },
-//   paginationContainer: {
-//     flexDirection: "row",
-//     justifyContent: "center",
-//     alignItems: "center",
-//     position: "absolute",
-//     bottom: 20,
-//     left: 0,
-//     right: 0,
-//   },
-//   paginationDot: {
-//     width: 15,
-//     height: 15,
-//     borderRadius: 20,
-//     backgroundColor: "#fff",
-//     marginHorizontal: 6,
-//     borderWidth: 1,
-//     borderColor: "#fff",
-//   },
-//   activeDot: {
-//     backgroundColor: "#000",
-//   },
-//   previousButton: {
-//     position: "absolute",
-//     top: "50%",
-//     left: 10,
-//     zIndex: 1,
-//   },
-//   nextButton: {
-//     position: "absolute",
-//     top: "50%",
-//     right: 10,
-//     zIndex: 1,
-//   },
-//   buttonText: {
-//     fontSize: 24,
-//     color: "#555",
-//   },
-// });
-
-// export default BlogsCarousel;
