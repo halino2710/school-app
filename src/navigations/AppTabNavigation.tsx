@@ -1,100 +1,64 @@
-import { View, TouchableOpacity, Image } from "react-native";
 import React from "react";
-import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
+import { createBottomTabNavigator as createMaterialBottomTabNavigator } from "@react-navigation/bottom-tabs";
+import { createStackNavigator } from "@react-navigation/stack";
+import { MaterialIcons, FontAwesome5, Ionicons } from "@expo/vector-icons";
 import Dashboard from "../screens/Dashboard";
-import { useNavigation } from "@react-navigation/native";
-import { MaterialIcons } from "@expo/vector-icons";
 import Products from "../screens/products/Products";
 import Home from "../screens/Home";
-import Cart from "../screens/products/Cart";
+import BlogsPage from "../screens/blogs/BlogsPage";
+import ProductList from "../screens/products/ProductList";
+import BlogDetail from "../screens/blogs/BlogDetail";
+import ProductDetails from "../screens/products/ProductDetails";
 
-const Tab = createBottomTabNavigator();
+const Tab = createMaterialBottomTabNavigator();
+const Stack = createStackNavigator();
+
+const BlogStack = () => {
+  return (
+    <Stack.Navigator screenOptions={{ headerShown: false }}>
+      <Stack.Screen name="BlogsPage" component={BlogsPage} />
+      <Stack.Screen name="BlogDetail" component={BlogDetail} />
+    </Stack.Navigator>
+  );
+};
+const ProductStack = () => {
+  return (
+    <Stack.Navigator screenOptions={{ headerShown: false }}>
+      <Stack.Screen name="Products" component={Products} />
+      <Stack.Screen name="ProductDetails" component={ProductDetails} />
+    </Stack.Navigator>
+  );
+};
 
 const AppTabNavigation = () => {
-  const navigation = useNavigation();
   return (
     <>
-      <Tab.Navigator
-        screenOptions={{
-          headerTitle: () => (
-            <Image
-              source={require("../../assets/images/schoolalllogo.png")}
-              resizeMode="contain"
-              style={{
-                flex: 1,
-                justifyContent: "flex-start",
-                alignItems: "flex-start",
-                width: 50,
-                height: 50,
-              }}
-            />
-          ),
-          headerStyle: { backgroundColor: "#FFDADA" },
-
-          tabBarLabelStyle: { fontSize: 15 },
-          headerRight: () => (
-            <View style={{ flexDirection: "row", marginRight: 10 }}>
-              <View
-                style={{
-                  position: "absolute",
-                  left: 48,
-                  bottom: 32,
-                  borderRadius: 10,
-                  backgroundColor: "red",
-                  width: 16,
-                  height: 16,
-                  justifyContent: "center",
-                  alignItems: "center",
-                }}
-              >
-                <View
-                  style={{
-                    backgroundColor: "red",
-                  }}
-                ></View>
-              </View>
-              <TouchableOpacity
-                style={{
-                  marginHorizontal: 20,
-                  justifyContent: "center",
-                  alignItems: "center",
-                  borderWidth: 2,
-                  borderColor: "grey",
-                  borderRadius: 100,
-                  width: 40,
-                  height: 40,
-                }}
-                onPress={() => navigation.navigate("Notification" as never)}
-              >
-                <MaterialIcons
-                  name="notifications-none"
-                  size={33}
-                  color="black"
-                />
-              </TouchableOpacity>
-              <TouchableOpacity
-                style={{
-                  justifyContent: "center",
-                  alignItems: "center",
-                  backgroundColor: "#A83542",
-                  borderRadius: 100,
-                  width: 40,
-                  height: 40,
-                }}
-                onPress={() => navigation.navigate("UserProfile" as never)}
-              >
-                <MaterialIcons name="person" size={30} color={"#fff"} />
-              </TouchableOpacity>
-            </View>
-          ),
-        }}
-      >
+      <Tab.Navigator screenOptions={{ headerShown: false }}>
         <Tab.Screen
           name="Home"
           component={Home}
           options={{
-            tabBarIcon: ({ size, color }: any) => (
-              <MaterialIcons name="home" size={size} color={color} />
+            tabBarIcon: () => (
+              <MaterialIcons name="home" size={25} color={"#000"} />
+            ),
+          }}
+        />
+
+        <Tab.Screen
+          name="Blogs"
+          component={BlogStack}
+          options={{
+            tabBarIcon: () => (
+              <Ionicons name="ios-reader" size={25} color={"#000"} />
+            ),
+          }}
+        />
+        <Tab.Screen
+          name="Shop"
+          component={ProductStack}
+          options={{
+            tabBarIcon: () => (
+              <FontAwesome5 name="shopify" size={25} color={"#000"} />
             ),
           }}
         />
@@ -102,30 +66,8 @@ const AppTabNavigation = () => {
           name="Dashboard"
           component={Dashboard}
           options={{
-            tabBarIcon: ({ size, color }: any) => (
-              <MaterialIcons name="apps" size={size} color={color} />
-            ),
-          }}
-        />
-        <Tab.Screen
-          name="Product"
-          component={Products}
-          options={{
-            tabBarIcon: ({ size, color }: any) => (
-              <MaterialIcons
-                name="format-list-bulleted"
-                size={size}
-                color={color}
-              />
-            ),
-          }}
-        />
-        <Tab.Screen
-          name="My Cart"
-          component={Cart}
-          options={{
-            tabBarIcon: ({ size, color }: any) => (
-              <MaterialIcons name="shopping-cart" size={size} color={color} />
+            tabBarIcon: () => (
+              <MaterialIcons name="apps" size={25} color={"#000"} />
             ),
           }}
         />

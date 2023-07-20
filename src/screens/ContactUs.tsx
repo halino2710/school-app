@@ -17,7 +17,7 @@ const ContactUs = () => {
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
   return (
-    <View style={{}}>
+    <ScrollView style={{}}>
       <Image
         source={require("../../assets/images/location.png")}
         resizeMode="cover"
@@ -117,7 +117,7 @@ const ContactUs = () => {
           Submit
         </Text>
       </TouchableOpacity>
-    </View>
+    </ScrollView>
   );
 };
 

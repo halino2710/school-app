@@ -1,63 +1,99 @@
-import { StyleSheet, Text, View, Image, TouchableOpacity } from "react-native";
+import { View, ScrollView } from "react-native";
 import React from "react";
+import { MaterialCommunityIcons } from "@expo/vector-icons";
+import { Text } from "react-native-paper";
+import ProductSliderMain from "./ProductSliderMain";
+import ProductSliderList from "./ProductSliderList";
 
-const Products = ({ navigation }: any) => {
+const Products = () => {
   return (
-    <View style={{ flex: 1, backgroundColor: "#FFDADA" }}>
-      <Image
-        source={require("../../../assets/images/productPageLogo.png")}
-        resizeMode="cover"
-      />
-      <Text
-        style={{
-          color: "#40000B",
-          textAlign: "center",
-          fontSize: 30,
-          paddingVertical: 20,
-        }}
-      >
-        Shop for Products on Online store
-      </Text>
+    <ScrollView
+      showsVerticalScrollIndicator={false}
+      style={{ paddingTop: 20, marginHorizontal: 10, marginBottom: 10 }}
+    >
+      <ProductSliderMain />
       <View
         style={{
           flexDirection: "row",
           alignItems: "center",
-          justifyContent: "space-between",
+          justifyContent: "flex-start",
           marginHorizontal: 20,
-          paddingVertical: 20,
-          marginBottom: 20,
+          backgroundColor: "#FFF8F7",
+          marginBottom: 5,
         }}
       >
-        <TouchableOpacity
-          onPress={() => navigation.navigate("Products")}
+        <View
           style={{
-            backgroundColor: "#A83542",
-            width: 161,
-            height: 50,
-            borderRadius: 100,
-            justifyContent: "center",
+            backgroundColor: "#765657",
+            height: 45,
+            width: 10,
+            marginRight: 5,
+          }}
+        ></View>
+
+        <View
+          style={{
+            flexDirection: "row",
+            justifyContent: "space-between",
+            alignItems: "center",
+            width: "100%",
           }}
         >
-          <Text style={{ textAlign: "center", color: "#fff" }}>Shop now</Text>
-        </TouchableOpacity>
-        <TouchableOpacity
-          style={{
-            width: 150,
-            height: 50,
-            borderRadius: 100,
-            justifyContent: "center",
-            borderWidth: 1,
-          }}
-        >
-          <Text style={{ textAlign: "center", color: "#A83542" }}>
-            Download Brochure
-          </Text>
-        </TouchableOpacity>
+          <Text style={{ fontSize: 40, marginVertical: 8 }}>Products</Text>
+          <View style={{ alignItems: "flex-end", marginRight: 10 }}>
+            <MaterialCommunityIcons
+              name="dots-vertical"
+              size={30}
+              color="#000"
+            />
+          </View>
+        </View>
       </View>
-    </View>
+      <ProductSliderList />
+      <View
+        style={{
+          flexDirection: "row",
+          alignItems: "center",
+          justifyContent: "flex-start",
+          marginTop: 15,
+          marginHorizontal: 20,
+          backgroundColor: "#FFF8F7",
+          marginBottom: 5,
+        }}
+      >
+        <View
+          style={{
+            backgroundColor: "#765657",
+            height: 40,
+            width: 10,
+            marginRight: 5,
+          }}
+        ></View>
+
+        <View
+          style={{
+            flexDirection: "row",
+            justifyContent: "space-between",
+            alignItems: "center",
+            width: "100%",
+          }}
+        >
+          <Text style={{ fontSize: 30, marginBottom: 8, fontWeight: "bold" }}>
+            Trending
+          </Text>
+          <View style={{ alignItems: "flex-end" }}>
+            <MaterialCommunityIcons
+              name="dots-vertical"
+              size={30}
+              color="#000"
+            />
+          </View>
+        </View>
+      </View>
+
+      <ProductSliderList />
+    </ScrollView>
   );
 };
 
 export default Products;
-
-const styles = StyleSheet.create({});

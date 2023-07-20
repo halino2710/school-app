@@ -1,0 +1,620 @@
+[
+    {
+        "blogId": "2d03e5d6-8af9-4ab8-a2d6-8e2ef0ad4b2e",
+        "title": "The Power of Positive Thinking: Unleashing Your Potential",
+        "slug": "/the-power-of-positive-thinking-unleashing-your-potential",
+        "summary": "Discover how harnessing the power of positive thinking can unlock your true potential, boost confidence, and create a fulfilling life.",
+        "tags": [
+            "Positive Thinking",
+            "Personal Development",
+            "Self-Improvement",
+            "Mindset"
+        ],
+        "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbeZLPOWzEsf9ka-ZQIDt6Kc2sLlSu5owVJ34sEBwv3DHux-B7gWIu5YYcqrTIbW5SWNQ&usqp=CAU",
+        "createdAt": "5 min ago",
+        "createdBy": {
+            "userId": "fc8f5391-9c50-476e-a87c-55c7b59fa527",
+            "profilePicture": "https://st.depositphotos.com/1011643/2013/i/600/depositphotos_20131051-stock-photo-african-college-boy-standing-outdoors.jpg",
+            "displayName": "Bob Smith",
+            "position": "Prefect"
+        },
+        "likesCount": 4,
+        "likedByMe": false
+    },
+    {
+        "blogId": "3548c872-2aee-49a5-a5d1-0e03f0fd736c",
+        "title": "The Power of Meditation",
+        "slug": "/the-power-of-meditation",
+        "summary": " Discover the transformative power of meditation and how it can bring peace and clarity to your mind and body.",
+        "tags": [
+            "Inner Stillness",
+            "Mindfulness Awakening",
+            "Transcendental Tranquility"
+        ],
+        "imageUrl": "https://biprokorsho.xyz/wp-content/uploads/2023/05/images-3.jpeg",
+        "createdAt": "2 min ago",
+        "createdBy": {
+            "userId": "d1f36322-4404-4c80-bdcb-3054d019ea60",
+            "profilePicture": "https://st.depositphotos.com/1011643/2013/i/600/depositphotos_20130467-stock-photo-beautiful-female-african-american-university.jpg",
+            "displayName": "Mary Jones",
+            "position": "Prefect"
+        },
+        "likesCount": 1,
+        "likedByMe": true
+    },
+    {
+        "blogId": "e74923d9-884c-422d-a372-54617a580034",
+        "title": "10 Easy Ways to Boost Your Productivity",
+        "slug": "/10-easy-ways-to-boost-your-productivity",
+        "summary": "Looking for ways to supercharge your productivity? This blog provides you with 10 simple yet effective strategies to enhance your focus.",
+        "tags": [
+            "Efficiency Hacks",
+            "Productivity Pro-Tips",
+            "Time Management Strategies"
+            ],
+        "imageUrl": "https://www.simplilearn.com/ice9/free_resources_article_thumb/Top_10_Ways_to_Increase_Productivity_at_Work.jpg",
+        "createdAt": "1 hr ago",
+        "createdBy": {
+            "userId": "f463ed3e-bc3f-46c1-8709-6346fa501690",
+            "profilePicture": "https://st.depositphotos.com/1011643/2013/i/600/depositphotos_20130655-stock-photo-group-of-african-american-university.jpg",
+            "displayName": "Alice Kargbo",
+            "position": "Student"
+        },
+        "likesCount": 7,
+        "likedByMe": false
+    },
+    {
+        "blogId": "39a4cb70-3a94-4b1a-95fb-7b2186c3e7e6",
+        "title": "The Art of Effective Communication",
+        "slug": "/the-art-of-effective-communication",
+        "summary": "Effective communication is the key to building strong relationships, both personally and professionally.",
+        "tags": [
+            "Clear Connection",
+            "Expressive Impact",
+            "Communication Mastery"
+        ],
+        "imageUrl": "https://chicagorealtor.com/wp-content/uploads/2015/07/Tango_650EmailHeader1.jpg",
+        "createdAt": "3 hr ago",
+        "createdBy": {
+            "userId": "f463ed3e-bc3f-46c1-8709-6346fa501690",
+            "profilePicture": "https://st2.depositphotos.com/38378404/45806/i/600/depositphotos_458063758-stock-photo-horizontal-portrait-african-american-female.jpg",
+            "displayName": "Jane Koroma",
+            "position": "Student"
+        },
+        "likesCount": 2,
+        "likedByMe": false
+    },
+    {
+        "blogId": "8e4787a2-8d94-4db2-9a0b-ae4af1776fa4",
+        "title": "Exploring the Wonders of Nature",
+        "slug": "/exploring-the-wonders-of-nature",
+        "summary": "Step into the breathtaking world of nature and discover its wonders. From lush rainforests to majestic mountains.",
+        "tags": [
+            "Nature's Marvels",
+            "Wilderness Discovery",
+            "Natural Beauty Unveiled",
+            "Adventure in the Great Outdoors"
+        ],
+        "imageUrl": "https://i.insider.com/5d9b69ec6932a04a08575612?width=700",
+        "createdAt": "5 min ago",
+        "createdBy": {
+            "userId": "fbff1b14-a96d-5527-b22f-bd6c8a5ce2ec",
+            "profilePicture": "https://st.depositphotos.com/2309453/3930/i/600/depositphotos_39309469-stock-photo-beautiful-african-american-student-or.jpg",
+            "displayName": "Mrs. Famata Sesay",
+            "position": "Teacher"
+        },
+        "likesCount": 3,
+        "likedByMe": true
+    },
+    {
+        "blogId": "71e68f83-4b7a-4f6f-9f08-1959e44573c1",
+        "title": "Mastering the Art of Decision Making",
+        "slug": "/mastering-the-art-of-decision-making",
+        "summary": "Decision making plays a vital role in our personal and professional lives. This blog explores various decision-making techniques.",
+        "tags": [
+            "Decisiveness Unleashed",
+            "Strategic Choice-Making",
+            "Decision Mastery in Action"
+        ],
+        "imageUrl": "https://static.wixstatic.com/media/a2a732_a00ebb5db3064103836316b52e325826~mv2.png/v1/fill/w_1000,h_709,al_c,q_90,usm_0.66_1.00_0.01/a2a732_a00ebb5db3064103836316b52e325826~mv2.png",
+        "createdAt": "2 min ago",
+        "createdBy": {
+            "userId": "790594fb-e9a9-5b0f-b2ea-d98a0b1ab0e9",
+            "profilePicture": "https://st.depositphotos.com/2309453/3930/i/600/depositphotos_39309469-stock-photo-beautiful-african-american-student-or.jpg",
+            "displayName": "Mrs. Alimatu Turay",
+            "position": "secretary"
+        },
+        "likesCount": 5,
+        "likedByMe": false
+    },
+    {
+        "blogId": "b69fd848-7d54-4a79-a92a-675a9f4ef6b8",
+        "title": "The Science of Happiness",
+        "slug": "/the-science-of-happiness",
+        "summary": "Dive into the fascinating field of positive psychology and uncover the scientific secrets to living a happier and more fulfilling life.",
+        "tags": [
+            "Joyful Living",
+            "Positive Psychology Insights",
+            "Thriving through Happiness"
+        ],
+        "imageUrl": "https://ggsc.s3.amazonaws.com/images/uploads/Science_of_Happiness_banner_cropped.png",
+        "createdAt": "1 hr ago",
+        "createdBy": {
+            "userId": "63316bef-e79f-53bf-afa9-cc4f7cfd04f9",
+            "profilePicture": "https://st.depositphotos.com/2309453/3930/i/600/depositphotos_39309469-stock-photo-beautiful-african-american-student-or.jpg",
+            "displayName":"Mr. Henry Conteh",
+            "position": "Principal"  
+        },
+        "likesCount": 8,
+        "likedByMe": false
+    },
+    {
+        "blogId": "d5671ab4-1e76-4851-bd7b-1f85766c661a",
+        "title": "Mastering Time Management",
+        "slug": "/mastering-time-management",
+        "summary": "Learn valuable time management techniques to enhance your productivity and reduce stress.",
+        "tags": [
+            "Time Optimization",
+            "Efficient Productivity",
+            "Strategic Time Mastery",
+            "Maximizing Time Effectiveness"
+        ],
+        "imageUrl": "https://thewineingercompany.com/wp-content/uploads/2016/10/mastering-time-management.png",
+        "createdAt": "3 hr ago",
+        "createdBy": {
+            "userId": "9525b8a5-35c7-571d-9ab2-21a6f6850bc2",
+            "profilePicture": "https://st.depositphotos.com/2309453/3930/i/600/depositphotos_39309469-stock-photo-beautiful-african-american-student-or.jpg",
+            "displayName": "Mr. Abdul Kamara",
+            "position":"Teacher"
+        },
+        "likesCount": 2,
+        "likedByMe": true
+    },
+    {
+        "blogId": "3e880dde-59ae-4c6d-b62a-61ab9a6c2f6b",
+        "title": "The Benefits of Exercise",
+        "slug": "/the-benefits-of-exercise",
+        "summary": "Explore the myriad of benefits exercise has on our physical and mental health.",
+        "tags": [
+            "Fitness for Life",
+            "Health and Wellness Boost",
+            "Energize Your Body"
+        ],
+        "imageUrl": "https://healthstarhomehealth.net/wp-content/uploads/2017/10/seniorexercise.jpg",
+        "createdAt": "5 min ago",
+        "createdBy": {
+            "userId": "fc8f5391-9c50-476e-a87c-55c7b59fa527",
+            "profilePicture": "https://st.depositphotos.com/1011643/2013/i/600/depositphotos_20131051-stock-photo-african-college-boy-standing-outdoors.jpg",
+            "displayName": "Bob Smith",
+            "position": "Prefect"
+        },
+        "likesCount": 3,
+        "likedByMe": false
+    },
+    {
+        "blogId": "f827c0d3-3a97-43d9-8c7f-90c27282c051",
+        "title": "Unleashing Your Creativity",
+        "slug": "/unleashing-your-creativity",
+        "summary": "Tap into your creative potential and explore various techniques to enhance your creativity.",
+        "tags": [
+            "Creative Expression",
+            "Artistic Innovation",
+            "Unlocking Imagination"
+        ],
+        "imageUrl": "https://assets.entrepreneur.com/content/3x2/2000/20190705133921-shutterstock-208432186.jpeg",
+        "createdAt": "2 min ago",
+        "createdBy": {
+            "userId": "d1f36322-4404-4c80-bdcb-3054d019ea60",
+            "profilePicture": "https://st.depositphotos.com/1011643/2013/i/600/depositphotos_20130467-stock-photo-beautiful-female-african-american-university.jpg",
+            "displayName": "Mary Jones",
+            "position": "Prefect"
+        },
+        "likesCount": 6,
+        "likedByMe": true
+    },
+    {
+        "blogId": "a1c530ab-38a6-4584-afed-5e01c805b478",
+        "title": "The Art of Problem-Solving",
+        "slug": "/the-art-of-problem-solving",
+        "summary": "Problem-solving is a critical skill in all aspects of life. This blog delves into effective problem-solving strategies.",
+        "tags": [
+            "Analytical Solutions",
+            "Strategic Troubleshooting",
+            "Creative Resolutions"
+        ],
+        "imageUrl": "https://artofproblemsolving.com/assets/images/home_test/books.png",
+        "createdAt": "1 hr ago",
+        "createdBy": {
+            "userId": "f463ed3e-bc3f-46c1-8709-6346fa501690",
+            "profilePicture": "https://st.depositphotos.com/1011643/2013/i/600/depositphotos_20130655-stock-photo-group-of-african-american-university.jpg",
+            "displayName": "Alice Kargbo",
+            "position": "Student"
+        },
+        "likesCount": 9,
+        "likedByMe": false
+    },
+    {
+        "blogId": "b2a4b880-5b14-4a3b-9f56-7756bde4c44b",
+        "title": "Discovering Your Passion",
+        "slug": "/discovering-your-passion",
+        "summary": "Uncover your true passions and learn how to align them with your career and personal life.",
+        "tags": [
+            "Unleashing Personal Passions",
+            "Finding Your True Calling",
+            "Passionate Pursuits",
+            "Igniting Inner Fire"
+        ],
+        "imageUrl": "https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/blogs/2147491353/images/sTFWcY5aTQCO8cRpPMoL_file.jpg",
+        "createdAt": "3 hr ago",
+        "createdBy": {
+            "userId": "f463ed3e-bc3f-46c1-8709-6346fa501690",
+            "profilePicture": "https://st2.depositphotos.com/38378404/45806/i/600/depositphotos_458063758-stock-photo-horizontal-portrait-african-american-female.jpg",
+            "displayName": "Jane Koroma",
+            "position": "Student"
+        },
+        "likesCount": 8,
+        "likedByMe": false
+    },
+    {
+        "blogId": "91c79e4e-9d8e-4a72-bf39-79a5e5e4a0ce",
+        "title": "The Importance of Self-Care",
+        "slug": "/the-importance-of-self-care",
+        "summary": "Prioritize your well-being by practicing self-care.",
+        "tags": [
+            "Nurturing the Self",
+            "Wellbeing Priority",
+            "Self-Renewal Strategies"
+        ],
+        "imageUrl": "https://community.thriveglobal.com/wp-content/uploads/2021/05/The-Importance-of-Self-Care.png",
+        "createdAt": "5 min ago",
+        "createdBy": {
+            "userId": "fbff1b14-a96d-5527-b22f-bd6c8a5ce2ec",
+            "profilePicture": "https://st.depositphotos.com/2309453/3930/i/600/depositphotos_39309469-stock-photo-beautiful-african-american-student-or.jpg",
+            "displayName": "Mrs. Famata Sesay",
+            "position": "Teacher"
+        },
+        "likesCount": 6,
+        "likedByMe": false
+    },
+    {
+        "blogId": "2e578e25-cc9f-4a68-8bc0-9d9c52ad4f27",
+        "title": "Exploring World Cuisines",
+        "slug": "/exploring-world-cuisines",
+        "summary": "Embark on a culinary journey as we explore diverse world cuisines. From exotic spices to traditional cooking techniques",
+        "tags": [
+            "Global Gastronomy",
+            "Culinary Adventures",
+            "Taste the World"
+        ],
+        "imageUrl": "https://welovefire.com/wp-content/uploads/2022/07/Cuisine-du-monde-_-Essayez-de-nouvelles-recettes-cet-ete%E2%80%89-copy-scaled-900x444.jpg",
+        "createdAt": "2 min ago",
+        "createdBy": {
+            "userId": "790594fb-e9a9-5b0f-b2ea-d98a0b1ab0e9",
+            "profilePicture": "https://st.depositphotos.com/2309453/3930/i/600/depositphotos_39309469-stock-photo-beautiful-african-american-student-or.jpg",
+            "displayName": "Mrs. Alimatu Turay",
+            "position": "secretary"
+        },
+        "likesCount": 5,
+        "likedByMe": true
+    },
+    {
+        "blogId": "48240ef8-dc23-47dd-9de3-10d4e3d85f26",
+        "title": "The Power of Positive Thinking",
+        "slug": "/the-power-of-positive-thinking",
+        "summary": "Discover the transformative effects of positive thinking on your mindset and overall outlook on life.",
+        "tags": [
+            "Optimism Unleashed",
+            "Positive Mindset Mastery",
+            "Harnessing Positivity"
+        ],
+        "imageUrl": "https://www.successconsciousness.com/blog/wp-content/uploads/positive-thinking.jpg",
+        "createdAt": "1 hr ago",
+        "createdBy": {
+            "userId": "63316bef-e79f-53bf-afa9-cc4f7cfd04f9",
+            "profilePicture": "https://st.depositphotos.com/2309453/3930/i/600/depositphotos_39309469-stock-photo-beautiful-african-american-student-or.jpg",
+            "displayName":"Mr. Henry Conteh",
+            "position": "Principal"
+        },
+        "likesCount": 8,
+        "likedByMe": false
+    },
+    {
+        "blogId": "f65f4a86-9d03-4b1e-8e0f-7e3d248ab85e",
+        "title": "Embracing Change: Thriving in a Dynamic World",
+        "slug": "/embracing-change:-thriving-in-a-dynamic-world",
+        "summary": "Change is inevitable, and this blog explores how to adapt and thrive in an ever-evolving world.",
+        "tags": [
+            "Adaptability Advantage",
+            "Resilience in Transition",
+            "Thriving Through Transformation"
+        ],
+        "imageUrl": "https://miro.medium.com/v2/resize:fit:1400/0*vvdDVly45B1dANSm.jpg",
+        "createdAt": "3 hr ago",
+        "createdBy": {
+            "userId": "9525b8a5-35c7-571d-9ab2-21a6f6850bc2",
+            "profilePicture": "https://st.depositphotos.com/2309453/3930/i/600/depositphotos_39309469-stock-photo-beautiful-african-american-student-or.jpg",
+            "displayName": "Mr. Abdul Kamara",
+            "position":"Teacher"
+        },
+        "likesCount": 6,
+        "likedByMe": true
+    },
+    {
+        "blogId": "9c25c72a-830e-4e2b-8b2e-53f03d7e18d8",
+        "title": "The Art of Effective Networking",
+        "slug": "/the-art-of-effective-networking",
+        "summary": "Networking is a valuable skill for personal and professional growth. This blog offers tips on building meaningful connections.",
+        "tags": [
+            "Strategic Connections",
+            "Building Professional Relationships",
+            "Networking Mastery",
+            "Expanding Your Circle"
+        ],
+        "imageUrl": "https://www.lenfestinstitute.org/wp-content/uploads/2020/08/Networking.jpg",
+        "createdAt": "5 min ago",
+        "createdBy": {
+            "userId": "fc8f5391-9c50-476e-a87c-55c7b59fa527",
+            "profilePicture": "https://st.depositphotos.com/1011643/2013/i/600/depositphotos_20131051-stock-photo-african-college-boy-standing-outdoors.jpg",
+            "displayName": "Bob Smith",
+            "position": "Prefect"
+        },
+        "likesCount": 4,
+        "likedByMe": false
+    },
+    {
+        "blogId": "e3e4dc53-3046-46ef-94fe-97f5e6d56d2b",
+        "title": "The Benefits of Mindful Eating",
+        "slug": "/the-benefits-of-mindful-eating",
+        "summary": "Explore the practice of mindful eating and its impact on your relationship with food.",
+        "tags": [
+            "Conscious Nourishment",
+            "Savoring Wellness",
+            "Mind-Body Nutrition"
+        ],
+        "imageUrl": "https://images.huffingtonpost.com/2012-02-09-Mindfulplate.jpg",
+        "createdAt": "2 min ago",
+        "createdBy": {
+            "userId": "d1f36322-4404-4c80-bdcb-3054d019ea60",
+            "profilePicture": "https://st.depositphotos.com/1011643/2013/i/600/depositphotos_20130467-stock-photo-beautiful-female-african-american-university.jpg",
+            "displayName": "Mary Jones",
+            "position": "Prefect"
+        },
+        "likesCount": 1,
+        "likedByMe": false
+    },
+    {
+        "blogId": "7ba60a55-3c2b-4c5d-a693-d6ab2b72ad2a",
+        "title": "The Joy of Traveling Solo",
+        "slug": "/the-joy-of-traveling-solo",
+        "summary": "Embarking on a solo adventure can be a transformative and empowering experience.",
+        "tags": [
+            "Empowering Solo Journeys",
+            "Adventures of One",
+            "Self-Discovery through Travel"
+        ],
+        "imageUrl": "https://www.nativeplanet.com/img/2021/09/beach-gf82274724-19201-1632915869.jpg",
+        "createdAt": "1 hr ago",
+        "createdBy": {
+            "userId": "f463ed3e-bc3f-46c1-8709-6346fa501690",
+            "profilePicture": "https://st.depositphotos.com/1011643/2013/i/600/depositphotos_20130655-stock-photo-group-of-african-american-university.jpg",
+            "displayName": "Alice Kargbo",
+            "position": "Student"
+        },
+        "likesCount": 1,
+        "likedByMe": false
+    },
+    {
+        "blogId": "d926fb81-3f63-486d-bab6-5687d3b4b5f9",
+        "title": "The Art of Letting Go",
+        "slug": "/the-art-of-letting-go",
+        "summary": "Explore the liberating practice of letting go and releasing attachment to outcomes.",
+        "tags": [
+            "Release and Renew",
+            "Embracing Surrender",
+            "Freedom in Detachment"
+        ],
+        "imageUrl": "https://pictures.abebooks.com/isbn/9781535356954-uk.jpg",
+        "createdAt": "3 hr ago",
+        "createdBy": {
+            "userId": "f463ed3e-bc3f-46c1-8709-6346fa501690",
+            "profilePicture": "https://st2.depositphotos.com/38378404/45806/i/600/depositphotos_458063758-stock-photo-horizontal-portrait-african-american-female.jpg",
+            "displayName": "Jane Koroma",
+            "position": "Student"
+        },
+        "likesCount": 3,
+        "likedByMe": true
+    },
+    {
+        "blogId": "4a86e259-8c5d-4965-9916-9185eb4b6d80",
+        "title": "The Power of Gratitude",
+        "slug": "/the-power-of-gratitude",
+        "summary": "Discover the transformative effects of gratitude on your well-being and happiness.",
+        "tags": [
+            "Gratitude Attitude",
+            "Abundance through Appreciation",
+            "Transformative Thankfulness"
+        ],
+        "imageUrl": "https://i.ytimg.com/vi/4tq7V0spFmU/maxresdefault.jpg",
+        "createdAt": "1 minute ago",
+        "createdBy": {
+            "userId": "fbff1b14-a96d-5527-b22f-bd6c8a5ce2ec",
+            "profilePicture": "https://st.depositphotos.com/2309453/3930/i/600/depositphotos_39309469-stock-photo-beautiful-african-american-student-or.jpg",
+            "displayName": "Mrs. Famata Sesay",
+            "position": "Teacher"
+        },
+        "likesCount": 8,
+        "likedByMe": false
+    }, 
+    {
+        "blogId": "b57deafc-ae7b-4523-96c4-3891f97283f7",
+        "title": "Mastering Public Speaking",
+        "slug": "/mastering-public-speaking",
+        "summary": "Conquer your fear of public speaking and become a confident and persuasive communicator.",
+        "tags": [
+            "Confident Communication",
+            "Influential Oratory",
+            "Public Speaking Excellence"
+        ],
+        "imageUrl": "https://d7c2r9g9.rocketcdn.me/wp-content/uploads/Become-A-Better-Public-Speaker-copy.jpg",
+        "createdAt": "5 hr ago",
+        "createdBy": {
+            "userId": "790594fb-e9a9-5b0f-b2ea-d98a0b1ab0e9",
+            "profilePicture": "https://st.depositphotos.com/2309453/3930/i/600/depositphotos_39309469-stock-photo-beautiful-african-american-student-or.jpg",
+            "displayName": "Mrs. Alimatu Turay",
+            "position": "secretary"
+        },
+        "likesCount": 7,
+        "likedByMe": false
+    },
+    {
+        "blogId": "8a3212d6-56b7-4de0-9ff1-5b827ce6c8d3",
+        "title": "The Art of Mindful Living",
+        "slug": "/the-art-of-mindful-living",
+        "summary": "Embrace mindfulness as a way of life and experience increased presence, joy, and fulfillment.",
+        "tags": [
+            "Present Moment Awareness",
+            "Conscious Living",
+            "Harmony in Being"
+        ],
+        "imageUrl": "https://m.media-amazon.com/images/I/51NFWY10M5L._AC_UF1000,1000_QL80_.jpg",
+        "createdAt": "30 min ago",
+        "createdBy": {
+            "userId": "63316bef-e79f-53bf-afa9-cc4f7cfd04f9",
+            "profilePicture": "https://st.depositphotos.com/2309453/3930/i/600/depositphotos_39309469-stock-photo-beautiful-african-american-student-or.jpg",
+            "displayName":"Mr. Henry Conteh",
+            "position": "Principal"
+        },
+        "likesCount": 8,
+        "likedByMe": true
+    },
+    {
+        "blogId": "4c90ed2d-2f16-4b33-9c69-11b7ef166f85",
+        "title": "The Science of Sleep",
+        "slug": "/the-science-of-sleep",
+        "summary": "Dive into the science of sleep and discover the importance of quality rest for your physical and mental well-being.",
+        "tags": [
+            "Optimal Restfulness",
+            "Sleep Wellness Secrets",
+            "Sleep Science Unveiled"
+        ],
+        "imageUrl": "https://s3.amazonaws.com/static.rogerebert.com/uploads/movie/movie_poster/the-science-of-sleep-2006/large_8juTRqn5o43mnlVacp1IzZSd11N.jpg",
+        "createdAt": "2 hr ago",
+        "createdBy": {
+            "userId": "9525b8a5-35c7-571d-9ab2-21a6f6850bc2",
+            "profilePicture": "https://st.depositphotos.com/2309453/3930/i/600/depositphotos_39309469-stock-photo-beautiful-african-american-student-or.jpg",
+            "displayName": "Mr. Abdul Kamara",
+            "position":"Teacher"
+        },
+        "likesCount": 5,
+        "likedByMe": false
+    },
+    {
+        "blogId": "e8d79083-ff81-43f0-8d92-58d4f344bd42",
+        "title": "The Beauty of Simplicity",
+        "slug": "/the-beauty-of-simplicity",
+        "summary": "Explore the beauty and benefits of living a simpler life. From decluttering your physical space to simplifying your daily routines.",
+        "tags": [
+            "Simplicity Serenity",
+            "Elegance in Minimalism",
+            "Uncluttered Bliss",
+            "Simplifying Life's Joys"
+        ],
+        "imageUrl": "https://media.licdn.com/dms/image/C5612AQH8qF4x4w8AnQ/article-cover_image-shrink_720_1280/0/1593418184416?e=2147483647&v=beta&t=BpZ8c18IAHKvgiIfYoZ8xWUp-6YO5h5GGVUgxmeLOvk",
+        "createdAt": "1 minute ago",
+        "createdBy": {
+            "userId": "fc8f5391-9c50-476e-a87c-55c7b59fa527",
+            "profilePicture": "https://st.depositphotos.com/1011643/2013/i/600/depositphotos_20131051-stock-photo-african-college-boy-standing-outdoors.jpg",
+            "displayName": "Bob Smith",
+            "position": "Prefect"
+        },
+        "likesCount": 2,
+        "likedByMe": false
+    },
+    {
+        "blogId": "19a91e63-d541-4fcd-8d17-62d27f476646",
+        "title": "The Healing Power of Music",
+        "slug": "/the-healing-power-of-music",
+        "summary": "Uncover the remarkable healing properties of music on our emotional, mental, and physical well-being.",
+        "tags": [
+            "Melodic Medicine",
+            "Harmony for Healing",
+            "Soulful Soundscapes",
+            "Therapeutic Tunes"
+             ],
+        "imageUrl": "https://whatsupmag.com/downloads/16015/download/music-main.jpe?cb=d0dc3ba9e7bcde00943f85c0f5dae772",
+        "createdAt": "5 hr ago",
+        "createdBy": {
+            "userId": "d1f36322-4404-4c80-bdcb-3054d019ea60",
+            "profilePicture": "https://st.depositphotos.com/1011643/2013/i/600/depositphotos_20130467-stock-photo-beautiful-female-african-american-university.jpg",
+            "displayName": "Mary Jones",
+            "position": "Prefect"
+        },
+        "likesCount": 1,
+        "likedByMe": false
+    },
+    {
+        "blogId": "71ff6e7d-0a3d-46ef-84c6-1d58e27bfc0e",
+        "title": "Emotional Intelligence: The Key to Success",
+        "slug": "/emotional-intelligence:-the-key-to-success",
+        "summary": "Emotional intelligence is a crucial skill for personal and professional success.",
+        "tags": [
+            "Self Awareness",
+            "Motivation",
+            "Self Regulation",
+            "Social Skills"
+        ],
+        "imageUrl": "https://www.quarrymagazine.com/wp-content/uploads/2019/10/73892.png",
+        "createdAt": "30 min ago",
+        "createdBy": {
+            "userId": "f463ed3e-bc3f-46c1-8709-6346fa501690",
+            "profilePicture": "https://st.depositphotos.com/1011643/2013/i/600/depositphotos_20130655-stock-photo-group-of-african-american-university.jpg",
+            "displayName": "Alice Kargbo",
+            "position": "Student"
+        },
+        "likesCount": 4,
+        "likedByMe": true
+    },
+    {
+        "blogId": "a32d02a3-d7fd-4b0e-88f9-24e019e7b50e",
+        "title": "Living a Balanced Life",
+        "slug": "/living-a-balanced-life",
+        "summary": "Discover the importance of work-life balance and learn strategies for achieving harmony in all areas of your life.",
+        "tags": [
+            "Harmony Within",
+            "Holistic Wellness",
+            "Equilibrium in Action"
+        ],
+        "imageUrl": "https://mirxes.com/blog/wp-content/uploads/2022/03/LIfe-balance.jpg",
+        "createdAt": "2 hr ago",
+        "createdBy": {
+            "userId": "f463ed3e-bc3f-46c1-8709-6346fa501690",
+            "profilePicture": "https://st2.depositphotos.com/38378404/45806/i/600/depositphotos_458063758-stock-photo-horizontal-portrait-african-american-female.jpg",
+            "displayName": "Jane Koroma",
+            "position": "Student"
+        },
+        "likesCount": 6,
+        "likedByMe": false
+    },
+    {
+        "blogId": "663b5de7-6dbb-4c2b-8fde-11d742a3a94c",
+        "title": "The Art of Effective Leadership",
+        "slug": "/the-art-of-effective-leadership",
+        "summary": "Unlock your leadership potential and learn essential skills for inspiring and guiding others.",
+        "tags": [
+            "Leadership Excellence",
+            "Inspirational Influence",
+            "Strategic Vision"            
+        ],
+        "imageUrl": "https://the-updates.com/wp-content/uploads/2023/04/The-Art-of-Leadership-7-Key-Skills-to-Become-an-Effective-Leader.jpg",
+        "createdAt": "1 min ago",
+        "createdBy": {
+            "userId": "fbff1b14-a96d-5527-b22f-bd6c8a5ce2ec",
+            "profilePicture": "https://st.depositphotos.com/2309453/3930/i/600/depositphotos_39309469-stock-photo-beautiful-african-american-student-or.jpg",
+            "displayName": "Mrs. Famata Sesay",
+            "position": "Teacher"
+        },
+        "likesCount": 7,
+        "likedByMe": false
+    }
+   
+]

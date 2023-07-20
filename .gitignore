@@ -1,7 +1,14 @@
 # Logs
 logs
 *.log
-npm-debug.log*
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
 yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
@@ -40,6 +47,8 @@ build/Release
 
 # Dependency directories
 node_modules/
+.expo/
+dist/
 jspm_packages/
 
 # Snowpack dependency directory (https://snowpack.dev/)

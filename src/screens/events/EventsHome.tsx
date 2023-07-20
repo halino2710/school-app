@@ -12,7 +12,7 @@ import React from "react";
 
 const Event = () => {
   return (
-    <View style={{ flex: 1 }}>
+    <ScrollView style={{ flex: 1 }}>
       <View style={{ justifyContent: "center" }}>
         <ImageBackground
           source={require("../../../assets/images/graduation-image.png")}
@@ -154,7 +154,7 @@ const Event = () => {
           </View>
         </TouchableOpacity>
       </View>
-    </View>
+    </ScrollView>
   );
 };
 

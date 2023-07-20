@@ -9,7 +9,7 @@ const Notification = ({ navigation }: any) => {
         onPress={() => navigation.goBack()}
         style={{ paddingTop: 20, marginLeft: 20 }}
       >
-        <MaterialIcons name="arrow-back" size={30} />
+        <MaterialIcons name="arrow-back-ios" size={30} />
       </TouchableOpacity>
       <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
         <Text>Notification is empty</Text>

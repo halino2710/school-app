@@ -1,26 +1,23 @@
 import "react-native-gesture-handler";
 
-import { StatusBar, StyleSheet, View } from "react-native";
+import { SafeAreaView, StatusBar, StyleSheet, View } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 
 import AppStack from "./src/navigations/AppStack";
-
-StatusBar.setBarStyle("dark-content", true);
-
 export default function App() {
+  StatusBar.setBarStyle("dark-content", true);
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       <NavigationContainer>
         <AppStack />
       </NavigationContainer>
-    </View>
+    </SafeAreaView>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
-    // top: StatusBar.currentHeight,
+    paddingTop: StatusBar.currentHeight,
     flex: 1,
-    // backgroundColor: "#FFDADA",
   },
 });

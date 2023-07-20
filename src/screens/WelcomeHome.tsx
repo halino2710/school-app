@@ -17,10 +17,8 @@ import ProductCarouselHome from "./products/ProductCarouselHome";
 import Testimonial from "./Testimonial";
 import ContactUs from "./ContactUs";
 import Footer from "../components/Footer";
-import BlogSliderList from "./blogs/BlogSliderList";
-import ProductSliderList from "./products/ProductSliderList";
 
-const WelcomeScreen: React.FC = ({ navigation }: any) => {
+const WelcomeHome: React.FC = ({ navigation }: any) => {
   const [isVisible, setIsVisible] = useState(false);
   const scrollViewRef = useRef<ScrollView>(null);
 
@@ -143,7 +141,7 @@ const WelcomeScreen: React.FC = ({ navigation }: any) => {
             paddingVertical: 1,
           }}
         />
-        <ProductSliderList />
+        <SliderCard />
         <Divider
           style={{
             marginVertical: 10,
@@ -159,8 +157,15 @@ const WelcomeScreen: React.FC = ({ navigation }: any) => {
             paddingVertical: 1,
           }}
         />
-        <BlogSliderList />
-
+        <BlogsCarousel />
+        <Divider
+          style={{
+            marginVertical: 10,
+            backgroundColor: "#FFDADA",
+            paddingVertical: 1,
+          }}
+        />
+        <ProductCarouselHome />
         <Divider
           style={{
             marginVertical: 10,
@@ -177,7 +182,7 @@ const WelcomeScreen: React.FC = ({ navigation }: any) => {
           }}
         />
         <ContactUs />
-        {/* <Footer /> */}
+        <Footer />
       </ScrollView>
 
       <View style={styles.container}>
@@ -191,7 +196,7 @@ const WelcomeScreen: React.FC = ({ navigation }: any) => {
   );
 };
 
-export default WelcomeScreen;
+export default WelcomeHome;
 
 const styles = StyleSheet.create({
   container: {

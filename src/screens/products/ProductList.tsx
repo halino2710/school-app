@@ -88,7 +88,6 @@ const ProductList: React.FC = ({ navigation }: any) => {
               height: 260,
               marginVertical: 10,
               width: itemWidth,
-              // margin: 5,
             },
           ]}
         >
@@ -114,13 +113,6 @@ const ProductList: React.FC = ({ navigation }: any) => {
 
   return (
     <>
-      <TouchableOpacity
-        onPress={() => navigation.goBack()}
-        style={{ paddingTop: 40, marginLeft: 20, width: 50 }}
-      >
-        <MaterialIcons name="arrow-back" size={30} />
-      </TouchableOpacity>
-
       <View
         style={{
           flexDirection: "row",
