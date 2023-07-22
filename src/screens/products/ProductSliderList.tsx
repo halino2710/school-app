@@ -65,11 +65,12 @@ const ProductSliderList = () => {
     return (
       <TouchableWithoutFeedback
         onPress={() => navigation.navigate("ProductDetails" as never)}
+        style={{}}
       >
         <Card
           style={{
             width: width * 0.7,
-            height,
+            height: height * 0.85,
             marginHorizontal: 10,
             marginVertical: 10,
           }}
@@ -114,7 +115,7 @@ const ProductSliderList = () => {
                 rating={rating}
                 onChange={setRating}
                 color="#A83542"
-                starSize={25}
+                starSize={20}
                 style={{ marginVertical: 10 }}
               />
               <Text style={{ fontSize: 20, fontWeight: "bold" }}>
