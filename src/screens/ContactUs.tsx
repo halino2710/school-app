@@ -6,10 +6,17 @@ import {
   TouchableOpacity,
   ScrollView,
   Alert,
+  Dimensions,
 } from "react-native";
 import React, { useState } from "react";
-import { MaterialIcons, Ionicons } from "@expo/vector-icons";
+import {
+  MaterialCommunityIcons,
+  MaterialIcons,
+  Ionicons,
+} from "@expo/vector-icons";
 import { TextInput } from "react-native-paper";
+
+const { width } = Dimensions.get("window");
 
 const ContactUs = () => {
   const [name, setName] = useState("");
@@ -17,26 +24,27 @@ const ContactUs = () => {
   const [subject, setSubject] = useState("");
   const [message, setMessage] = useState("");
   return (
-    <ScrollView style={{}}>
+    <ScrollView style={{ paddingBottom: 10 }}>
       <Image
         source={require("../../assets/images/location.png")}
         resizeMode="cover"
         style={{ width: "100%" }}
       />
-      <View
-        style={{ padding: 10, marginVertical: 10, backgroundColor: "#FFDADA" }}
-      >
+      <View style={{ paddingVertical: 10, marginVertical: 10 }}>
         <View
           style={{
             flexDirection: "row",
             marginVertical: 10,
             alignItems: "center",
+            backgroundColor: "#fff",
+            paddingVertical: 20,
+            paddingLeft: 15,
           }}
         >
           <Ionicons name="ios-location-outline" size={30} />
           <View style={{ marginLeft: 5 }}>
-            <Text style={{ fontSize: 18 }}>Location:</Text>
-            <Text style={{ fontSize: 16 }}>44 Circular Road</Text>
+            <Text style={{ fontSize: 25 }}>Location:</Text>
+            <Text style={{ fontSize: 18 }}>44 Circular Road</Text>
           </View>
         </View>
         <View
@@ -44,58 +52,63 @@ const ContactUs = () => {
             flexDirection: "row",
             alignItems: "center",
             marginBottom: 10,
+            backgroundColor: "#fff",
+            paddingVertical: 20,
+            paddingLeft: 15,
           }}
         >
-          <MaterialIcons name="email" size={30} />
+          <MaterialCommunityIcons name="email-outline" size={30} />
           <View style={{ marginLeft: 5 }}>
-            <Text style={{ fontSize: 18 }}>Email:</Text>
-            <Text style={{ fontSize: 16 }}>schoolall232@gmail.com</Text>
+            <Text style={{ fontSize: 25 }}>Email:</Text>
+            <Text style={{ fontSize: 18 }}>schoolall232@gmail.com</Text>
           </View>
         </View>
-        <View style={{ flexDirection: "row", alignItems: "center" }}>
-          <MaterialIcons name="phone" size={30} />
+        <View
+          style={{
+            flexDirection: "row",
+            alignItems: "center",
+            backgroundColor: "#fff",
+            paddingVertical: 20,
+
+            paddingLeft: 15,
+          }}
+        >
+          <MaterialCommunityIcons name="phone-outline" size={30} />
           <View style={{ marginLeft: 5 }}>
-            <Text style={{ fontSize: 18 }}>Call:</Text>
-            <Text style={{ fontSize: 16 }}>+232 79 030 420</Text>
+            <Text style={{ fontSize: 25 }}>Call:</Text>
+            <Text style={{ fontSize: 18 }}>+232 79 030 420</Text>
           </View>
         </View>
       </View>
-      <View>
-        <Text
-          style={{
-            fontSize: 25,
-            fontWeight: "bold",
-            paddingHorizontal: 10,
-            paddingTop: 10,
-          }}
-        >
-          Send us a message:
-        </Text>
+      <View style={{ marginHorizontal: 10 }}>
         <TextInput
-          placeholder="Your Name"
-          mode="flat"
+          label={"Your Nmae"}
+          mode="outlined"
           value={name}
           onChangeText={(newName) => setName(newName)}
-          style={{ marginBottom: 10, backgroundColor: "#FFDADA" }}
+          style={{ marginBottom: 10 }}
         />
         <TextInput
           value={email}
           onChangeText={(newEmail) => setEmail(newEmail)}
-          placeholder="Your Email"
-          style={{ marginBottom: 10, backgroundColor: "#FFDADA" }}
+          label="Your Email"
+          mode="outlined"
+          style={{ marginBottom: 10 }}
         />
         <TextInput
           value={subject}
           onChangeText={(newSubject) => setSubject(newSubject)}
-          placeholder="Subject"
-          style={{ marginBottom: 10, backgroundColor: "#FFDADA" }}
+          label="Subject"
+          mode="outlined"
+          style={{ marginBottom: 10 }}
         />
         <TextInput
           value={message}
           onChangeText={(newMessage) => setMessage(newMessage)}
-          placeholder="Message"
+          label="Message"
           multiline
-          style={{ marginBottom: 10, backgroundColor: "#FFDADA" }}
+          mode="outlined"
+          style={{ height: 100 }}
         />
       </View>
 
@@ -103,17 +116,21 @@ const ContactUs = () => {
         onPress={() => Alert.alert("Message sent")}
         style={{
           flexDirection: "row",
-          backgroundColor: "#A83542",
-          borderRadius: 20,
+          borderWidth: 0.8,
+          borderRadius: 100,
           alignItems: "center",
           justifyContent: "center",
           padding: 10,
           marginVertical: 20,
-          marginHorizontal: 10,
+          marginHorizontal: width * 0.35,
         }}
       >
-        <MaterialIcons name="send" size={30} color={"#fff"} />
-        <Text style={{ fontSize: 18, color: "#fff", marginLeft: 10 }}>
+        <MaterialCommunityIcons
+          name="send-outline"
+          size={25}
+          color={"#A83542"}
+        />
+        <Text style={{ fontSize: 18, color: "#A83542", marginLeft: 10 }}>
           Submit
         </Text>
       </TouchableOpacity>
